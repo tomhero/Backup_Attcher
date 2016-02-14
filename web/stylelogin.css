@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 27, 2016, 11:26:00 AM
+    Author     : Tomheroz
+*/
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background: url('image/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	 background-position: center;
+	min-width: 1200px;
+}
+
+.circle{
+	border-radius: 543px 543px 0px 543px;
+	background-color: rgba(0,0,0,0.55);
+	width: 543px;
+	height: 543px;
+	margin: auto;
+	margin-top: 175px;
+	border: 0px solid #000000;
+}
+
+.content{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	margin-top: 75px;
+}
+.content h1{
+	color: orange;
+	text-shadow:2px 1px 10px rgba(0,0,0,0.8)
+}
+
+ul {
+	list-style: none;
+}
+
+form{
+	text-align: left;
+}
+
+li {
+	padding-top: 15px;
+}
+
+h3{
+	float: right;
+	color: white;
+	font-weight: lighter;
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+	margin-top: 500px;
+	background-color: rgba(0,0,0,0.3);
+	min-width: 1200px;
+}
+
+ol li{
+	padding-top: 8px;
+	color: white;
+	font-size: 0.8em;
+	margin-left: 50px;
+        letter-spacing: 1px;
+}
+
+ol{
+	padding-left: 0px;
+	padding-top: 0px;
+	width: 300px;
+	float: left;
+}
+
+h4{
+	color: orange;
+	margin-left: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	width: 250px;
+	float: left;
+	max-width: 250px;
+}
+
+#name{
+	width: 70%;
+	height: 7.5%;
+	margin-left: 7.5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.125em;
+	border-radius: 5px 5px 0px 5px;
+        color: white;
+	text-shadow:2px 1px 2px rgba(0,0,0,0.25);
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid palegreen;
+}
+
+#pass {
+	width: 70%;
+	height: 7.5%;
+	margin-left: 11px;
+	font-size: 1.5em;
+	border-radius: 5px 5px 0px 5px;
+        color: white;
+	text-shadow:2px 1px 10px rgba(0,0,0,0.25);
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid sandybrown;
+}
+
+#loginbut{
+	border: 0px solid #000000;
+	width: 25%;
+	height: 7%;
+	float: right;
+	margin-right: 68px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	border-radius: 5px 5px 0px 5px;
+	background-color: #87CEFA;
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.8);
+}
+
+#loginbut:hover{
+	background-color: #1E90FF;
+        cursor: pointer;
+}
+
+#aleart{
+	color: lightcoral;
+	text-shadow:2px 1px 10px rgba(0,0,0,0.8);
+        letter-spacing: 1px;
+}
+
+#laname{
+	color: 	palegreen;
+	text-shadow:2px 1px 10px rgba(0,0,0,0.8);
+}
+
+#lapass{
+	color: sandybrown;
+	text-shadow:2px 1px 10px rgba(0,0,0,0.8);
+}
+
+#it_logo{
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+#face_logo{
+	width: 5em;
+	height: 5em;
+	float: right;
+	margin-right: -350px;
+	margin-top: 128px;
+}
+
+#elearn_logo{
+	color: orange;
+	float: right;
+	margin-right: -225px;
+	margin-top: 128px;
+	text-decoration: none;
+	font-size: 2.5em;
+	letter-spacing: 3px;
+}
+
+#elearn_logo:hover{
+	color: darkorange;
+}
+
+#memme{
+    color: whitesmoke;
+}
